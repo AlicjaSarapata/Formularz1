@@ -3,33 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
  <form action="https://formspree.io/alicja.sarapata@wp.pl"
       method="POST">
       
-  <label for="Imie">Podaj imię:</label><br>
-   <input type="text" name="Imie" id="imie" /><br/>
-   <label for="Nazwisko">Podaj Nazwisko:</label><br>
-   <input type="text" name="Nazwisko" id="Nazwisko"><br>
+   <label for="imie">Podaj imię:</label><br>
+   <input type="text" name="imie" id="imie" /><br/>
+   <label for="nazwisko">Podaj Nazwisko:</label><br>
+   <input type="text" name="nazwisko" id="nazwisko"><br>
    <label for="email">Wprowadź email:</label><br>
    <input type="email" name="email" id="email"><br>
-   <label for="Numer telefonu">Wprowadź telefon:</label><br>
+   <label for="numer telefonu">Wprowadź telefon:</label><br>
    <input type="tel" id="tel"><br>
-   <label for="Wybor miasta">Wybierz miasto</label>
-    <select name="" id="Wybor miasta">
+   <label for="wybor miasta">Wybierz miasto</label><br>
+    <select name="" id="wybor miasta">
         <option value="Krakow">Kraków</option>
         <option value="Warszawa">Warszawa</option>
         <option value="Gdansk">Gdańsk</option>
     </select><br>
-    <label for="Plec">Wybierz płeć:</label><br>
-        <input type="radio" name="Plec" value="Kobieta">Kobieta
-        <input type="radio" name="Plec" value="Mezczyzna">Mężczyzna<br>
-<input type="checkbox" name="zgoda"> Wyrażam zgodę na przetwarzanie danych osobowych <br>
+    <label for="plec">Wybierz płeć:</label><br>
+        <input type="radio" name="plec" value="kobieta">Kobieta
+        <input type="radio" name="plec" value="mezczyzna">Mężczyzna<br>
    <label for="textarea">Wpisz wiadomość:</label><br>
-   <textarea name="" id="" cols="30" rows="10"maxlength="1000"></textarea><br>
-    <input type="submit" value="wyslij"><br> 
+   <textarea name="wiadomosc" id="wpisz wiadomosc" cols="30" rows="10"maxlength="1000"></textarea><br>
+   <input type="checkbox" name="zgoda"> Wyrażam zgodę na przetwarzanie danych osobowych <br>
+   <input type="submit" value="wyslij"><br>
+      
       
       </form> 
-</body>
+   </body>
 </html>
